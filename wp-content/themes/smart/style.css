@@ -1,0 +1,167 @@
+/*   
+Theme Name: Smart Device
+*/
+
+.card-two-prod .card-tabs-link{
+    margin-right: 10px;
+}
+.card-two-prod .card-tabs-link:last-child {
+    margin: 0px;
+}
+.card-two-prod .card-title{
+    font-size: 21px;
+}
+
+.card-two-prod .card-label__title{
+    padding: 0px 10px;
+}
+.card-two-prod .card-label__btn{
+    height: 50px;
+    line-height: 50px;
+}
+.card-two-prod .card-label__name{
+    font-size: 21px;
+}
+
+div.wpcf7-mail-sent-ok{
+    background: #398f14;
+    color: #fff;
+    padding: 10px 30px;
+    margin: 0px;
+    margin-bottom: 40px;
+}
+div.wpcf7-validation-errors, div.wpcf7-acceptance-missing{
+    border: 2px solid #f00;
+    padding: 10px 20px;
+    margin: 0px;
+    margin-bottom: 40px;
+}
+.modal-form p{
+    margin: 0px;
+}
+
+.modal-form input[type=text].wpcf7-not-valid,
+.modal-form textarea.wpcf7-not-valid {
+    border: 1px solid #f00;
+}
+.card-image-block{
+    height: auto;
+    padding: 20px 0px;
+}
+.card-image-big{
+    height: auto;
+    padding: 40px 20px;
+}
+
+.card-label__cost .card-available{
+    position: relative;
+    top: -5px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: right;
+    color: #959291;
+}
+
+.card-label__cost, .card-label__name{
+    vertical-align: bottom;
+    width: 100%;
+    padding-bottom: 35px;
+}
+
+.card-label__title{
+    min-height: 120px;
+}
+
+.js-card-mod .card-label__btn{
+    background: #484241;
+}
+.js-card-mod.active .card-label__btn{
+    background: #D70A26;
+}
+
+.card-image-thumb > .row > div{
+    margin-bottom: 10px;
+}
+
+.video-link{
+    display: inline-block;
+    font-size: 18px;
+    vertical-align: top;
+    font-weight: 700;
+    color:#000;
+    text-decoration: none;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.video-link img{
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 20px;
+}
+.video-link p{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    white-space: normal;
+}
+
+.header_addr{
+    font-size: 18px;
+    margin-top: -20px;
+    font-weight: 600;
+}
+@media (max-width: 1200px){
+    .header_addr {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 767px){
+    .mfp-container{
+        width: 100%;
+    }
+    .modal-form-content{
+        padding-top: 50px;
+    }
+    button.mfp-close{
+        background: #4D4845!important;
+        color: #fff !important;
+        font-size: 28px;
+        width: 38px;
+        height: 38px;
+        top:0px;
+    }
+    button.mfp-close:hover,
+    button.mfp-close:active{
+        top:0px;
+    }
+}
+
+@media (max-width: 1480px) and (min-width: 1200px){
+    .video-link p {
+        width: 200px;
+    }
+}
+
+@media (max-width: 1400px) and (min-width: 1300px){
+    .card-two-prod .card-title{
+        font-size: 19px;
+    }
+}
+@media (max-width: 1300px) and (min-width: 1200px){
+    .card-two-prod .card-title{
+        font-size: 17px;
+    }
+    .card-two-prod .card-label__name{
+        font-size: 18px;
+    }
+    .card-two-prod .card-label__cost{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 420px) {
+    .video-link p {
+        width: 200px;
+    }
+}
